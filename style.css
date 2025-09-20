@@ -1,9 +1,9 @@
 :root {
-    --color-primary: #4B69FD;
+    --color-primary: rgb(159, 207, 226);
     --color-secondary: #FFF9EB;
-    --color-tertiary: #C4C4C4;
-    --color-button: #fe652b;
-    --color-button-hover: #e55720;
+    --color-tertiary: #6e6d6d;
+    --color-button: rgb(69, 131, 155);
+    --color-button-hover: #455a63;
     --color-text: #444444;
     --color-white: #FFFFFF;
 }
@@ -37,6 +37,13 @@ body {
     justify-content: center;
     align-items: center;
     padding: 40px 0 0;
+}
+
+.header-banner img {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    margin-left: 20px;
 }
 
 /* Sección de entrada */
@@ -132,6 +139,11 @@ ul {
     font-family: "Inter", sans-serif;
     font-size: 18px;
     margin: 20px 0;
+    text-align: center;
+}
+
+ul li {
+    margin-top: 8px;
 }
 
 .result-list {
